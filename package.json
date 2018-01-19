@@ -1,5 +1,5 @@
 {
-  "name": "@feathersjs/authentication-oauth1",
+  "name": "@picnic-software/feathersjs-authentication-oauth1",
   "description": "A Feathers OAuth1 authentication strategy",
   "version": "1.0.3",
   "homepage": "https://github.com/feathersjs/authentication-oauth1",
@@ -31,7 +31,6 @@
     "release:patch": "npm version patch && npm publish --access public",
     "release:minor": "npm version minor && npm publish --access public",
     "release:major": "npm version major && npm publish --access public",
-    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
     "lint": "semistandard --fix",
     "mocha": "mocha --opts mocha.opts",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts",
