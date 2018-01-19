@@ -1,8 +1,8 @@
 {
   "name": "@picnic-software/feathersjs-authentication-oauth1",
   "description": "A Feathers OAuth1 authentication strategy",
-  "version": "1.0.3",
-  "homepage": "https://github.com/feathersjs/authentication-oauth1",
+  "version": "1.0.4",
+  "homepage": "https://github.com/duttonkj/authentication-oauth1",
   "main": "lib/",
   "keywords": [
     "feathers",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/authentication-oauth1.git"
+    "url": "git://github.com/duttonkj/authentication-oauth1"
   },
   "author": {
     "name": "Feathers contributors",
@@ -20,13 +20,12 @@
   },
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/feathersjs/authentication-oauth1/issues"
+    "url": "https://github.com/duttonkj/authentication-oauth1/issues"
   },
   "engines": {
     "node": ">= 6"
   },
   "scripts": {
-    "publish": "git push origin --tags && npm run changelog && git push origin",
     "release:pre": "npm version prerelease && npm publish --tag pre --access public",
     "release:patch": "npm version patch && npm publish --access public",
     "release:minor": "npm version minor && npm publish --access public",
